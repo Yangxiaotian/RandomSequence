@@ -115,4 +115,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="cordova-plugin-clipboard2" spec="~0.1.0" />
+	<gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription" overwrite="true">
+		<string>We are using the Photo Library for barcode scanner</string>
+	</gap:config-file>
 </widget>
